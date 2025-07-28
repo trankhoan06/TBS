@@ -1,0 +1,330 @@
+.doctor_inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.div_absolute{
+    position: absolute;
+    z-index: 1;
+}
+.txt_subtitle{
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2rem;
+    padding: .3rem 1rem;
+    width: max-content;
+}
+.doctor_intense_img{
+    width: 17rem;
+}
+.doctor_intense{
+    top: 12%;
+    left: 7%;
+}
+.doctor_intense_txt{
+    left: 39%;
+    top: -24%;
+}
+.doctor_uplifted{
+    top: 13%;
+    left: 20%;
+}
+.doctor_uplifted_img{
+    width:13rem ;
+    
+}
+.doctor_uplifted_txt{
+    left: 14%;
+    top: -25%;
+}
+
+.doctor_hopeful{
+    top: 10.4%;
+    left: 30%;
+}
+.doctor_hopeful_img{
+    width:21rem ;
+    
+}
+.doctor_hopeful_txt{
+    left: 40%;
+    top: -15%;
+}
+.doctor_frustrating{
+    top: 10.3%;
+    left: 45%;
+}
+.doctor_frustrating_img{
+    width: 15rem;
+    
+}
+.doctor_frustrating_txt{
+    left: 24%;
+    top: -22%;
+}
+.doctor_table{
+    top: 23%;
+    left: 12.8%;
+}
+.doctor_table_img{
+    width: 62rem;
+}
+
+.doctor_intellectually{
+    top: 14.5%;
+    right: 21%;
+}
+.doctor_intellectually_img{
+    width:15rem ;
+    
+}
+.doctor_intellectually_txt{
+    right: 77%;
+    top: -30%;
+    width: 12.5rem;
+}
+
+.doctor_meaningful{
+    top: 10%;
+    right: 12.7%;
+}
+.doctor_meaningful_img{
+    width:16rem ;
+    
+}
+.doctor_meaningful_txt{
+    right: 29%;
+    top: -27%;
+}
+.doctor_dynamic{
+    top: 9.11%;
+    right: 3%;
+    z-index: 4;
+}
+.doctor_dynamic_img{
+    width: 16rem;
+    
+}
+.doctor_dynamic_txt{
+    right: 10%;
+    top: -9%;
+    padding-inline: 1rem;
+}
+.doctor_table1{
+    top: 23%;
+    right: 6.8%;
+}
+.doctor_table1_img{
+    width: 34rem;
+    height: 3.756rem;
+    img{
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+.doctor_chair{
+    top: 51.11%;
+    left: 6.5%;
+}
+.doctor_chair_img{
+    width: 8rem;
+    
+}
+.doctor_underestimated{
+    top: 39.11%;
+    left: 7%;
+    z-index: 4;
+}
+.doctor_underestimated_img{
+    width: 12rem;
+    
+}
+.doctor_underestimated_txt{
+    left: -20%;
+    top: -20%;
+}
+.doctor_unfulfilling{
+    top: 34.8%;
+    left: 15%;
+}
+.doctor_unfulfilling_img{
+    width: 12rem;
+    
+}
+.doctor_unfulfilling_txt{
+    left: 4%;
+    top: -14%;
+}
+
+.doctor_hopeless{
+    top: 39.8%;
+    left: 23%;
+}
+.doctor_hopeless_img{
+    width: 12rem;
+    
+}
+.doctor_hopeless_txt{
+    left: 16%;
+    top: -19%;
+}
+.doctor_mondtous{
+    top: 34.8%;
+    left: 32.7%;
+}
+.doctor_mondtous_img{
+    width: 9rem;
+    
+}
+.doctor_mondtous_txt{
+    left: -2%;
+    top: -14%;
+}
+
+.doctor_empathy{
+    top: 39.8%;
+    right: 22%;
+    z-index: 4;
+}
+.doctor_empathy_img{
+    width: 12.5rem;
+    
+}
+.doctor_empathy_txt{
+    right: -5%;
+    top: -32%;
+}
+
+.doctor_chair2{
+    top: 50.9%;
+    right: 25%;
+}
+.doctor_chair2_img{
+    width: 8rem;
+    
+}
+.doctor_custormer{
+    top: 38.5%;
+    right: 14%;
+    z-index: 5;
+}
+.doctor_custormer_img{
+    width: 10rem;
+    
+}.doctor_chair3{
+    top: 43.9%;
+    right: 13%;
+}
+.doctor_chair3_img{
+    width: 8.5rem;
+    
+}
+.doctor_rewarding{
+    top: 36%;
+    right: 1%;
+}
+.doctor_rewarding_img{
+    width: 15rem;
+    
+}
+.doctor_rewarding_txt{
+    right: 15%;
+    top: -26%;
+}
+.doctor_booth{
+   bottom: 2%;
+    left: -0.5%;
+    z-index: 5;
+}
+.doctor_booth_img{
+    width: 32rem;
+    
+}
+.doctor_challenging{
+    bottom: 8%;
+    left: 3%;
+}
+.doctor_challenging_img{
+    width: 18rem;
+    
+}
+.doctor_challenging_txt{
+    right: 1%;
+    top: -15%;
+}
+.doctor_innovative{
+    bottom: 5%;
+    left: 21%;
+}
+.doctor_innovative_img{
+    width: 15rem;
+    
+}
+.doctor_innovative_txt{
+    right: -5%;
+    top: -6%;
+}
+.doctor_despairing{
+    bottom: 1.5%;
+    left: 31.5%;
+}
+.doctor_despairing_img{
+    width: 17rem;
+    
+}
+.doctor_despairing_txt{
+    right: 85%;
+    top: -27%;
+}
+.doctor_collaboration{
+    bottom: 3.5%;
+    left: 46.5%;
+}
+.doctor_collaboration_img{
+    width: 23rem;
+    
+}
+.doctor_collaboration_txt{
+    right: 24%;
+    top: -27%;
+}
+.doctor_energised{
+    bottom: 4.5%;
+    left: 62.5%;
+}
+.doctor_energised_img{
+    width: 14rem;
+    
+}
+.doctor_energised_txt{
+    right: -38%;
+    top: -14%;
+}
+
+.doctor_exhausted{
+    bottom: 2.5%;
+    right: 15%;
+}
+.doctor_exhausted_img{
+    width: 26rem;
+    
+}
+.doctor_exhausted_txt{
+    right: 18%;
+    top: -19%;
+}
+.doctor_uncertain{
+    bottom: 4.5%;
+    right: .5%;
+}
+.doctor_uncertain_img{
+    width: 13.5rem;
+    
+}
+.doctor_uncertain_txt{
+    right: 7%;
+    top: -16%;
+}
