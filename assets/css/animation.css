@@ -1,3 +1,6 @@
+.mobile{
+    display: none;
+}
 .doctor_inner{
     position: relative;
     width: 100%;
@@ -327,4 +330,428 @@
 .doctor_uncertain_txt{
     right: 7%;
     top: -16%;
+}
+.doctor_wrap_third_bg{
+    display: none;
+}
+@media screen and (max-width:991px) {
+    .txt_subtitle{
+        font-size: .6rem;
+        padding: .2rem .5rem;
+        text-align: center;
+    }
+    .doctor_intense_txt{
+        top: -31%;
+    }
+    .doctor_intense_img{
+        width: 7.6rem;
+    }
+    .doctor_uplifted_txt{
+        top: -35%;
+    }
+    .doctor_uplifted_img{
+        width: 5.78rem;
+    }
+    .doctor_hopeful_txt{
+        top: -21%;
+    }
+    .doctor_hopeful_img{
+        width: 9.25rem;
+    }
+    .doctor_frustrating_img{
+        width: 6.7rem;
+    }
+    .doctor_table_img{
+        width: 27.5rem;
+    }
+    .doctor_intellectually_img{
+        width: 6.6rem;
+    }
+    .doctor_intellectually_txt{
+        width: 6.5rem;
+    }
+    .doctor_meaningful_img{
+        width: 7rem;
+    }
+    .doctor_dynamic_img{
+        width: 7.07rem;
+    }
+    .doctor_dynamic_txt{
+        right: 4%;
+        top: -14%;
+    } 
+    .doctor_chair_img{
+        width: 3.8rem;
+    }
+    .doctor_underestimated_img{
+        width: 5.5rem;
+    }
+    .doctor_unfulfilling_img{
+        width: 5.4rem;
+    }
+    .doctor_unfulfilling_txt{
+        top: -20%;
+    }
+    .doctor_hopeless_img{
+        width: 5.5rem;
+    }
+    .doctor_hopeless_txt {
+        top: -23%;
+    }
+    .doctor_mondtous_img{
+        width: 4rem;
+    }
+    .doctor_empathy_img{
+        width: 5.4rem;
+    }
+    .doctor_chair2_img{
+        width: 3.4rem;
+    }
+    .doctor_custormer_img{
+        width: 4.4rem;
+    }
+    .doctor_chair3_img{
+        width: 3.8rem;
+    }
+    .doctor_rewarding_img{
+        width: 6.7rem;
+    }
+    .doctor_booth_img{
+        width: 14rem;
+    }
+    .doctor_challenging_img{
+        width: 8rem;
+    }
+    .doctor_innovative_img{
+        width:6.7rem;
+    }
+    .doctor_despairing_img{
+        width: 7.6rem;
+    }
+    .doctor_despairing_img{
+        right: 69%;
+    }
+    .doctor_collaboration_img{
+        width: 10rem;
+    }
+    .doctor_energised_img {
+        width: 6.4rem;
+    }
+    .doctor_exhausted_img{
+        width: 11.5rem;
+    }
+    .doctor_uncertain_img{
+        width: 5.9rem;
+    }
+    .doctor_table1{
+        display: flex;
+        top: 24.5%;
+        right: 6.8%;
+        justify-content: end;
+        align-items: end;
+    }
+    .doctor_table1_img {
+        height: auto;
+        display: flex;
+        width: 14.7rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .mobile{
+        display: block;
+    }
+    .doctor_img{
+        display: none !important;
+    }
+    .doctor_item{
+        position: relative;
+    }
+    .doctor_wrap_first, .doctor_wrap_second{
+        background-color: #B3DCF0;
+        width: 100%;
+        height: 17rem;
+    }
+    .doctor_intense{
+        left: 3%;
+        top: unset;
+        bottom: 0%;
+    }
+    .doctor_intense_img{
+        width: 9.6rem;
+    }
+    .doctor_uplifted_img{
+        width: 7.6rem;
+    }
+    .doctor_uplifted{
+        bottom:0;
+        top: unset;
+        left: 30%;
+    }
+    .doctor_hopeful_img{
+        width: 10.6rem;
+    }
+    .doctor_hopeful{
+        top: unset;
+        left: 50%;
+        bottom: 0%;
+    }
+    .img_full{
+        display: flex;
+    }
+    .doctor_frustrating_img{
+        width: 8.5rem;
+    }
+    .doctor_frustrating{
+        top: unset;
+        bottom: 0;
+        left: 76%;
+    }
+        .doctor_table_img {
+        width: 30rem;
+    }
+        .doctor_table {
+        top: unset;
+        bottom: 0;
+        left: 16%;
+    }
+    .doctor_intellectually, .doctor_meaningful, .doctor_dynamic, .doctor_table1 {
+        top: unset;
+        right: unset;
+        bottom: 0;
+    }
+    .doctor_intellectually{
+        left: 10%;
+    }
+    .doctor_intellectually_img{
+        width: 9.6rem;
+    }
+    .doctor_intellectually_txt {
+        right: 42%;
+    }
+    .doctor_meaningful{
+        left: 42%;
+    }
+    .doctor_meaningful_img{
+        width: 8.6rem;
+    }
+    .doctor_dynamic{
+        left: 70%;
+    }
+    .doctor_dynamic_img{
+        width: 9.6rem;
+    }
+    .doctor_table1{
+        left: 17%;
+    }
+    .doctor_table1_img{
+        width: 31.6rem;
+    }
+    .doctor_wrap_third{
+        background-color: #fff;
+        height: 18rem;
+    }
+    .doctor_wrap_third_bg{
+        display: block;
+        height: 4rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #B3DCF0;
+    }
+    .doctor_chair, .doctor_underestimated, .doctor_unfulfilling, .doctor_hopeless, .doctor_mondtous{
+        top: unset;
+        right: unset;
+        bottom: 10%;
+    }
+    .doctor_chair_img{
+        width: 4.8rem;
+    }
+    .doctor_underestimated{
+        left: 8%;
+    }
+    .doctor_underestimated_img{
+        width: 6.5rem;
+    }
+    .doctor_unfulfilling{
+        left: 30%;
+    }
+    .doctor_unfulfilling_img{
+        width: 6.8rem;
+    }
+    .doctor_unfulfilling_txt {
+        top: -12%;
+    }
+    .doctor_hopeless{
+        left: 54%;
+    }
+    .doctor_hopeless_img{
+        width: 6.8rem;
+    }
+    .doctor_mondtous{
+        left: 80%;
+    }
+    .doctor_mondtous_img{
+        width: 5rem;
+    }
+    .doctor_mondtous_txt {
+        top: -10%;
+    }
+    .doctor_wrap_fourth{
+        height: 18rem;
+        background-color: #FFAB02;
+    }
+    .doctor_empathy, .doctor_chair2, .doctor_custormer, .doctor_chair3, .doctor_rewarding{
+        top: unset;
+        right: unset;
+        bottom: 10%;
+    }
+    .doctor_empathy{
+        left: 31%;
+    }
+    .doctor_empathy_img{
+        width: 7.6rem;
+    }
+    .doctor_empathy_txt {
+        top: -23%
+    }
+    .doctor_chair2{
+        left: 30%;
+        bottom: 6.5%;
+    }
+    .doctor_chair2_img{
+        width: 4.8rem;
+    }
+    .doctor_custormer{
+        left: 54%;
+    }
+    .doctor_custormer_img{
+        width: 6.2rem;
+    }
+    .doctor_chair3{
+        left: 59%;
+        bottom: 7%;
+    }
+    .doctor_chair3_img{
+        width: 5rem;
+    }
+    .doctor_rewarding{
+        left: 77%;
+    }
+    .doctor_rewarding_img{
+        width: 8.7rem;
+    }
+    .doctor_rewarding_txt {
+        top: -12%;
+    }
+    .doctor_wrap_fifth{
+        height: 19rem;
+        background-color: #FFAB02;
+    }
+    .doctor_wrap_fifth_bg{
+        height: 4rem;
+        background-color: #009E87 ;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 0;
+        right: 0;
+    }
+    .doctor_booth, .doctor_challenging, .doctor_innovative, .doctor_despairing{
+        bottom: 10%;
+    }
+    .doctor_booth{
+        bottom: 3%;
+    }
+    .doctor_booth_img{
+        width: 16rem;
+    }
+    .doctor_challenging{
+        bottom: 14%;
+    }
+    .doctor_challenging_img{
+        width: 11rem;
+    }
+    .doctor_challenging_txt {
+        right: 22%;
+        top: -10%;
+    }
+     .doctor_innovative{
+        left: 45%;
+    }
+    .doctor_innovative_img{
+        width: 8rem;
+    }
+    .doctor_innovative_txt {
+        top: 2%;
+    }
+    .doctor_despairing{
+        left: 72%;
+        bottom: 5%;
+    }
+    .doctor_despairing_img{
+        width: 9rem;
+    }
+    .doctor_despairing_txt {
+        right: 75%;
+        top: -24%;
+    }
+    .doctor_wrap_sixth{
+        height: 18rem;
+        background-color: #F2CEAA;
+    }
+    .doctor_collaboration, .doctor_energised, .doctor_exhausted, .doctor_uncertain{
+        bottom: 10%;
+        right: unset;
+    }
+    .doctor_collaboration{
+        left: 4.5%;
+    }
+    .doctor_collaboration_img{
+        width: 11.5rem ;
+    }
+    .doctor_collaboration_txt {
+        top: -19%
+    }
+    .doctor_energised{
+        left: 30.5%;
+    }
+    .doctor_energised_img{
+        width: 7.6rem;
+    }
+    .doctor_energised_txt {
+        top: -8%;
+        right: -30%
+    }
+    .doctor_exhausted{
+        left: 45%;
+        bottom: 3%;
+        z-index: 2;
+    }
+    .doctor_exhausted_img{
+        width: 13.5rem;
+    }
+    .doctor_exhausted_txt {
+        right: 34%;
+    }
+    .doctor_uncertain{
+        left: 82%;
+    }
+    .doctor_uncertain_img{
+        width: 7.4rem;
+    }
+    .doctor_chair4{
+        left: 72%;
+        bottom: 12%
+    }
+    .doctor_chair4_img{
+        width: 4.3rem;
+    }
+    .doctor_chair5{
+        left: 62%;
+        bottom: 12%
+    }
+    .doctor_chair5_img{
+        width: 4.3rem;
+    }
 }
