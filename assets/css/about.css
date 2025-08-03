@@ -1,4 +1,8 @@
 /* hero */
+.svg_bg{
+    position: absolute;
+    pointer-events: none;
+}
 .about_hero_top_logo{
     width: 13.6rem;
 }
@@ -57,6 +61,9 @@
 .about_content{
     margin-top: 14.5rem;
 }
+.about_content_top{
+    padding-bottom: 10.6rem;
+}
 .about_content_top_txt{
     grid-column: 1/8;
     margin-right: -3.5rem;
@@ -102,12 +109,16 @@
     grid-column: 8/13;
 }
 .about_content_sight{
-    align-items: center;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+.about_content_sight_inner{
+    align-items: center;
+
+}
 .about_content_assign_txt{
     grid-column: 1/6;
+    padding-top: 7rem;
 }
 .about_content_assign_img{
     grid-column: 7/13;
@@ -189,7 +200,7 @@
     padding-top: 10rem;
 }
 .about_value_item{
-    width: 37.7rem;
+    width: 38.4rem;
 }
 .about_value_item_img{
     width: 10.6rem;
@@ -276,6 +287,9 @@
     }
     .about_value_wrap{
         padding: 0;
+    }
+    .about_value_smalltitle{
+        color: #77A03B;
     }
 }
 
@@ -605,7 +619,7 @@
     margin-bottom: .7rem;
 }
 .about_expert_content{
-    margin-bottom: 8rem;
+    padding-bottom: 8rem;
 }
 .about_expert{
     padding-top: 10rem;
@@ -649,7 +663,7 @@
         }
     }
     .about_expert_content {
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
     .about_expert_content_info_authen{
         grid-column: 1/13;
@@ -691,7 +705,8 @@
 /* archive */
 
 .about_archive{
-    margin-bottom: 13rem;
+    padding-bottom: 13rem;
+    padding-top: 11rem;
 }
 .about_archive_des{
     max-width: 92.7rem;

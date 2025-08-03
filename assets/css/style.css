@@ -105,6 +105,10 @@ h1{
   font-size: 4rem;
   line-height: 1.125em;
 }
+.txt_50 {
+  font-size: 5rem;
+  line-height: 1.3em;
+}
 .txt_55 {
   font-size: 5.5rem;
   line-height: 1.25em;
@@ -118,6 +122,9 @@ h1{
 }
 .right_full {
   margin-right: calc(var(--padding-container)*-1);
+}
+.img_full{
+  display: flex;
 }
 .img_full img{
   width: 100%;
@@ -150,7 +157,16 @@ h1{
 .mobile{
   display: none;
 }
+.txt_uppercase{
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 991px){
+  .desktop{
+    display: none !important;
+  }
+  .kl_grid {
+  column-gap: 2rem;
+}
   .tablet{
     display: block;
   }
@@ -183,6 +199,9 @@ h1{
 }
 .txt_40 {
   font-size: 3.2rem;
+}
+.txt_50 {
+  font-size: 3.4rem;
 }
 .txt_55 {
   font-size: 4rem;
@@ -217,7 +236,7 @@ h1{
   font-size: 1.6rem;
 }
 .txt_28 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .txt_30 {
   font-size: 1.8rem;
@@ -228,8 +247,11 @@ h1{
 .txt_40 {
   font-size: 3.2rem;
 }
+.txt_50 {
+  font-size: 2rem;
+}
 .txt_55 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 .txt_70{
   font-size: 2.5rem;

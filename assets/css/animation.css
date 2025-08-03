@@ -477,10 +477,10 @@
         bottom: 0%;
     }
     .doctor_intense_img{
-        width: 9.6rem;
+        width: 10.6rem;
     }
     .doctor_uplifted_img{
-        width: 7.6rem;
+        width: 8rem;
     }
     .doctor_uplifted{
         bottom:0;
@@ -488,18 +488,18 @@
         left: 30%;
     }
     .doctor_hopeful_img{
-        width: 10.6rem;
+        width: 11.6rem;
     }
     .doctor_hopeful{
         top: unset;
-        left: 50%;
+        left: 48%;
         bottom: 0%;
     }
     .img_full{
         display: flex;
     }
     .doctor_frustrating_img{
-        width: 8.5rem;
+        width: 9rem;
     }
     .doctor_frustrating{
         top: unset;
@@ -607,7 +607,7 @@
         bottom: 10%;
     }
     .doctor_empathy{
-        left: 31%;
+        left: 29%;
     }
     .doctor_empathy_img{
         width: 7.6rem;
@@ -616,20 +616,20 @@
         top: -23%
     }
     .doctor_chair2{
-        left: 30%;
+        left: 29%;
         bottom: 6.5%;
     }
     .doctor_chair2_img{
         width: 4.8rem;
     }
     .doctor_custormer{
-        left: 54%;
+        left: 52%;
     }
     .doctor_custormer_img{
         width: 6.2rem;
     }
     .doctor_chair3{
-        left: 59%;
+        left: 57%;
         bottom: 7%;
     }
     .doctor_chair3_img{
@@ -715,6 +715,7 @@
     }
     .doctor_energised{
         left: 30.5%;
+        z-index: 5;
     }
     .doctor_energised_img{
         width: 7.6rem;
@@ -753,5 +754,63 @@
     }
     .doctor_chair5_img{
         width: 4.3rem;
+    }
+    .doctor_cabinet{
+        left: 5%;
+        bottom: 15%;
+    }
+    .doctor_cabinet_img{
+        width: 5.54rem;
+    }
+    .doctor_clock_img{
+        width: 3.59rem;
+    }
+    .doctor_clock{
+        top: 10%;
+        right: 21%;
+    }
+    .doctor_card2_img{
+        width: 4.27rem;
+    }
+    .doctor_card2{
+        top: 6%;
+        left: 7%;
+    }
+    .doctor_card3_img{
+        width: 3.27rem;
+    }
+    .doctor_card3{
+        top: 6%;
+        left: 18%;
+    }
+    .doctor_cabinet2{
+        right: 38%;
+        bottom: 16%;
+    }
+    .doctor_cabinet2_img{
+        width: 7.89rem;
+    }
+    .doctor_flow_img{
+        width: 1.46667rem;
+    }
+    .doctor_flow{
+        right: 45%;
+        bottom: 54%;
+    }
+    .doctor_card4{
+        right: 15%;
+        background-color: #fff;
+        bottom: 70%;
+    }
+    .doctor_card4_img{
+        width: 5.25rem;
+    }
+     .doctor_card5{
+        right: 28%;
+        background-color: #fff;
+        bottom: 61%;
+    }
+    .doctor_card5_img{
+        width: 3.99rem;
     }
 }
