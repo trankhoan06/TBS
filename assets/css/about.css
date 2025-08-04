@@ -9,30 +9,33 @@
 .about_hero_top{
     margin-top: 2.1rem;
 }
+.about_hero_img{
+    aspect-ratio: 1920/580;
+}
 .about_hero{
-    background: url(../img/about_hero.webp) no-repeat center;
-    background-size: 100% 100%;
-    width: 100%;
-    min-height: 58rem;
+    position: relative;
 }
 .about_hero_txt{
-    max-width: 108.4rem;
-    margin-inline: auto;
+   position: absolute;
+   z-index: 5;
     color: #fff;
+    top: 14.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 108.5rem;
+    width: 100%;
 }
 .about_hero_txt_title{
-    margin: 1.6rem 0 1.6rem;
+    margin: 1rem 0;
 }
 .about_hero_txt_des{
     margin-top: 3rem;
 }
-.about_hero_txt{
-    padding-top: 7.1rem;
-}
 
 @media screen and (max-width:991px) {
     .about_hero_txt{
-        padding-top: 4rem;
+        top: 6rem;
+        max-width: 60.5rem;
     }
     .about_hero_txt_title{
         margin: 1rem 0;
@@ -40,22 +43,44 @@
     .about_hero_txt_des{
         margin-top: 2rem;
     }
-    .about_hero{
-        min-height: 43rem;
+    .about_hero_txt_title {
+        font-size: 3rem;
+    }
+    .about_hero_txt_smalltitle {
+        font-size: 2.4rem;
+    }
+    .about_hero_img{
+        aspect-ratio: 1000/525;
+    }
+    .about_hero_txt_des {
+        margin-top: 1rem;
     }
 }
 @media screen and (max-width:767px){
+    .about_hero_img{
+        aspect-ratio: 440/513;
+    }
 .about_hero_top_logo{
     width: 8.8rem;
-}
-.about_hero{
-    background: url(../img/about_hero.webp) no-repeat center center;
-    background-size: cover;
-    height: 51rem;
 }
 .about_hero_txt_des{
     margin-inline: .7rem;
 }
+.about_hero_txt{
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 40.3rem;
+    }
+    .about_hero_txt_des{
+        max-width: 33.3rem;
+        margin-inline: auto;
+    }
+    .about_hero_txt_title {
+        font-size: 2.8rem;
+    }
+    .about_hero_txt_smalltitle {
+        font-size: 1.8rem;
+    }
 }
 /* content */
 .about_content{
@@ -683,12 +708,6 @@
         margin-left: 0;
         margin-top: 2rem;
     }
-        .about_expert_content_img{
-            clip-path: none;
-        }
-        .about_expert_content_img2{
-            clip-path: none;
-        }
  }
  @media screen and (max-width:767px) {
     .about_expert{
@@ -741,7 +760,7 @@
 }
 .button_swiper{
     position: absolute;
-    inset: 0 -3rem;
+    inset: 0 -2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -749,8 +768,9 @@
 }
 .button_swiper_item{
     pointer-events: auto;
-     width: 1rem;
-     height: 2rem;
+     width: 3rem;
+     height: 4rem;
+     padding: 1rem;
      cursor: pointer;
      transition: opacity .4s ease;
      &.swiper-button-disabled{
