@@ -152,25 +152,28 @@
 }
 }
 @media screen and (max-width:767px){
-.estate_intro_txt_des{
-    margin-inline: 0;
-    margin-top: 10rem;
-    &::before{
-        top: -7rem;
-        left: 0;
-        width: 7.2rem;
-        height: 6.2rem;
+    .estate_intro_txt_des{
+        margin-inline: 0;
+        margin-top: 10rem;
+        &::before{
+            top: -7rem;
+            left: 0;
+            width: 7.2rem;
+            height: 6.2rem;
+        }
+        &::after{
+            bottom: -3rem;
+            right: .5rem;
+            width: 7.2rem;
+            height: 6.2rem;
+        } 
     }
-    &::after{
-        bottom: -3rem;
-        right: .5rem;
-        width: 7.2rem;
-        height: 6.2rem;
-    } 
-}
-.estate_intro_txt_logo{
-    width: 17rem;
-}
+    .estate_intro_txt_logo{
+        width: 17rem;
+    }
+    .estate_content_inner{
+        padding-block: 6rem;
+    }
 }
 /* logistics */
 .estate_logistics{
@@ -285,4 +288,7 @@
     .estate_logistics_exper_item_title{
         font-size: 4rem;
     }    
+    .estate_logistics_exper_item {
+        padding-block: 2rem 1.5rem;
+    }
 }
