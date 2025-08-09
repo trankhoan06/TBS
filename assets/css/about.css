@@ -363,6 +363,7 @@
     padding-block: 33.7rem;
     position: relative;
     height: .4rem;
+    cursor: pointer;
     display: flex;
     /* background:url(/assets/img/moc.png) center no-repeat ;
     background-repeat: repeat-x;
